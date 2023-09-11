@@ -31,7 +31,7 @@ def check_guess(guess, secret):
 
 
 def main():
-
+    print("guess number")
     (low, high) = configure_range()
     secret = generate_secret(low, high)
 
